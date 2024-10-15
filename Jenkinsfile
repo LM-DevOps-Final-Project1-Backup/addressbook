@@ -12,7 +12,7 @@ pipeline {
     stages {
     stage('1. Git Checkout') {
       steps {
-        git branch: 'feature02', credentialsId: 'Github-pat', url: 'https://github.com/LM-DevOps-Final-Project1-Backup/addressbook.git'
+        git branch: 'feature02', credentialsId: 'gabe-teamb-project', url: 'https://github.com/LM-DevOps-Final-Project1-Backup/addressbook.git'
       }
     }
     stage('2. Build with Maven') { 
