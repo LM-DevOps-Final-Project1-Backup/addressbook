@@ -17,7 +17,7 @@ fi
 
 # Install Helm
 echo "Installing Helm..."
-curl https://raw.githubusercontent.com/helm/helm/main/script/get-helm-3 | bash
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # Verify Helm installation
 echo "Verifying Helm installation..."
