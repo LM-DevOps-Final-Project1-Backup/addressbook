@@ -22,6 +22,8 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 # Verify Helm installation
 echo "Verifying Helm installation..."
 helm version
+chmod +x /home/ubuntu/workspace/addressbook-app-pipeline@tmp/durable-7136fb71/script/install_helm.sh
+
 
 # Create a namespace for Helm (optional)
 echo "Creating a namespace for Helm charts (optional)..."
